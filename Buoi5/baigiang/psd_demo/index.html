@@ -1,0 +1,76 @@
+<!-- psd/index.html -->
+<!-- Demo việc chuyển đổi HTML CSS từ file .psd 
+Các bước thực hiện :
+-Tạo cấu trúc thư mục như sau:
+psd_demo/
+/index.html: file code html
+/css: chứa các file css
+/style.css
+/fonts: chứa các font lấy đc từ psd
+/images: chứa các ảnh lấy đc từ psd
+/js: chứa các file javascript
+- xác định ảnh và cắt ảnh từ psd:
+chỉ cắt ảnh nào mà k thể dùng html css để tạo ra
+- một số phims tắt cơ bản:
+ctrl + ,ctrl -, alt + chuột giữa : zoom to nhỏ
+giữ phím cách + chuột trái : di chuyển đến vùng muốn hiển thị
+lấy vùng chọn:
++lấy vùng chọn theo khối chữ nhật / vuông phím tắt M: 
++crop ảnh: sau khi lấy vùng chọn , nhấn phím C  -> enter 2 lần để crop ảnh . lưu file vào thư mục images
++ctrl + alt + z : back lại nhiều lần
+xác định các font đang dùng cho text từ file psd:
+các font trên máy tính đang lưu tại : C:/windows/Fonts Dùng phím T để tìm text, nếu show popup -> font chưa có trên máy-> search gg để tải file đó về
+fonts/Pacifico
+nhúng font
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Buoi5/baigiang/psd_demo/demo.css">
+</head>
+<body>
+    <div class="container-full">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">Bloom</div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-top">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="main-center">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

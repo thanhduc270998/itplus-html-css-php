@@ -1,0 +1,39 @@
+.container{
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid #E2E2E2;
+    padding: 20px;
+}
+.items_center{
+    text-align: center;
+}
+select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 10px;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-bottom: 0;
+    color: #696969;
+}
+.blue{
+    color: #2196F3;
+}
+button{
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    margin-right: 20px;
+}

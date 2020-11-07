@@ -1,0 +1,28 @@
+/* <!-- 
++ web responsive khi hiển thị tương thích với tất cả các thiết bị: PC , Ipad/ Tablet , mobile
++ web responsive không xuất heiẹn thanh cuộn ngang 
++ Để web reponsive được -> code css
++ Thiết kế website theo hướng Mobile first, trong quá tình học vẫn theo hướng từ PC -> Mobile
+--> */
+/* Định nghĩa các kích thước chuẩn của các thiết bị:
+PC: min-width:1024px
+Ipad/Tablet: min-width: 768px, max-width: 1023px
+Mobile: max-width: 767px;
++Để css responsive, sử dụng @media
++Mặc định khi code CSS là code cho PC */
+.h1-color{
+    background: red;
+}
+/* Ipad */
+@media(min-width:768px) and (max-width:1023px){
+    /* Tất cả code css bên trong sẽ chỉ ăn với Ipad */
+    .h1-color{
+        background-color: blue;
+    }
+}
+@media (max-width:767px){
+    .h1-color{
+        background-color: yellow;
+    }
+}
+/* Thực tế màn hình PC và Ipad giống nhau về giao diện, chỉ cần responsive về Mobile */

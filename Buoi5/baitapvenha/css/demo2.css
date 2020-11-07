@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'QlassikBold';
+    src: url(/Buoi5/baitapvenha/font/QlassikBold_TB.ttf);
+}
+
+.main_one h1 {
+    font-family: 'QlassikBold';
+    font-size: 20px;
+    color: #3A6669;
+}
+
+.main_one {
+    background-color: #DEEEEF;
+    padding: 20PX;
+}
+
+.main_two {
+    background-color: #5A4336;
+    height: 150px;
+}
+
+.main_three {
+    background-color: #B1A38D;
+    height: 680px;
+}
+
+.bai2 {
+
+    width: 100%;
+}
+
+.bai2__background {
+    position: relative;
+}
+
+.main__body {
+    background-color: white;
+    max-width: 69.8%;
+    position: absolute;
+    top: 117px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+.main__body-menu ul {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main__body-menu ul li {
+    list-style: none;
+    background-color: #86AA39;
+    padding: 9px 68px;
+    border-left: 1px solid white;
+    margin: auto;
+    display: block;
+
+}
+
+.main__body-menu ul li a {
+    text-decoration: none;
+    text-align: center;
+
+    color: white;
+
+    justify-content: space-evenly;
+    width: 50px;
+
+}
+
+.main__body-menu ul li:nth-child(1) {
+    background-color: white;
+    color: black;
+}
+
+.main__body-menu ul li:first-child a {
+    color: black;
+}
+.container{
+    margin: 0 auto;
+
+}
+.main__banner{
+    width: 97.5%;
+    margin: 0 auto;
+}
+.main__banner img {
+    width: 910px;
+    height: 240px;
+margin: 10px -2px;
+    align-items: center;
+    border: 3px solid #E3D8C5;
+}
+.main__body-title{
+    display: flex;
+    justify-content: space-between;
+    padding:0 12px;
+    height: 30px;
+}
+.main__body-title p{
+margin: 5px;
+}
+.main__body-title button{
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DB982C;
+    color: white;
+}
+.row{
+    display: flex;
+}
+.main-content-body{
+    width: 50%;
+    padding:12px;
+}
+.main-content-body p{
+    margin-top: 0;
+}
+.main-content-body h1{
+    color: #7B9D33;
+}
+.main-content-body h4{
+    color: #CF8B1F;
+}
+.main-content-body h4{
+    margin: 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #463328;
+    padding: 5px ;
+}
+.footer ul li{
+    list-style: none;
+    border-right:1.5px solid #463328;
+}
+.footer ul{
+display: flex;
+padding: 10px;
+background-color: #B1A38D;
+margin: 0;
+}
+.footer-no-border{
+    border-right: none!important;
+}

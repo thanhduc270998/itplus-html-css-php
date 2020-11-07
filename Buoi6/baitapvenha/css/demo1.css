@@ -1,0 +1,74 @@
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+.file{
+    border: 1px solid #d6d4d4;
+    padding: 5px 0 0 0;
+}
+.name{
+    display: flex;
+}
+.first_name{
+    padding-right: 10px;
+    width: 50%;
+}
+.last_name{
+    width: 50%;
+}
+p span{
+    color: red;
+}
+input{
+    border:1px solid #d6d4d4;
+}
+textarea{
+    border:1px solid #d6d4d4;
+    border-radius: 3px;
+width: 100%;
+}
+p{
+    margin: 20px 0 0 0;
+}
+h3{
+    margin-bottom: 0;
+}
+input[type=text]{
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+/* Mobile */
+@media screen and (max-width:767px){
+    .container{
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .name{
+        display: block;
+    }
+    .first_name{
+        width: 100%;
+    }
+    .last_name{
+        width: 100%;
+    }
+    input.file{
+        width: 100%;;
+    }
+    .radio_select{
+        display: flex;
+        justify-content: space-between;
+    }
+    .radio_select input{
+        padding-right: 20px;
+    }
+    textarea{
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 100%;
+    }
+}

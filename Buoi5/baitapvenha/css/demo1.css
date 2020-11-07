@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(/Buoi5/baitapvenha/font/MYRIADPRO-BLACK_0.OTF);
+}
+
+.bai1__title {
+    font-family: 'Myriad Pro', sans-serif;
+    background-color: black;
+}
+
+.bai1__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.bai1__header-menu ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.bai1__header-menu ul li {
+    list-style: none;
+}
+
+.bai1__header-menu ul {
+    display: flex;
+
+}
+
+.bai1__title {
+    background-color:#2F2F2F;
+    border: 1px solid #4AFFFF;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.bai1__container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: #2F2F2F;
+}
+
+.bai1__main-content {
+    background-color: #F1F1F1;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.bai1__main-content-title-ct {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.bai1__main-content-title-ct button {
+    background-color: #f99640;
+    color: white;
+    margin-top: 40px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.bai1__main-content-title-ct button h4 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.bai1__main-content-title-img {
+    width: 60%;
+
+}
+
+.bai1__main-content-title-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.bai1__main-content h3 {
+    font-family: 'Myriad Pro';
+    src: url(/Buoi5/baitapvenha/font/MYRIADPRO-BLACK_0.OTF);
+    margin-top: 0;
+}
+
+.bai1__main-content p {
+    font-size: 13px;
+
+}
+
+.bai1__container-title {
+    width: 80%;
+    margin: 0 auto;
+}
+.bai1__main-content-heading{
+    background-color: #F1F1F1;
+    
+}
+.bai1__main{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.bai1__main-content-heading h2{
+    margin-top: 0;
+}
+.bai1__main-content-heading-title{
+    padding-top: 50px;
+}
+.bai1__main-content-heading {
+    background-color: white;
+}
+.bai1__main-content-heading-item{
+    width: (100%/3);
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+
+.bai1__main-content-heading-item p{
+    font-size: 13px;
+}
+.bai1__main-content-heading-item button h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.bai1__main-content-heading-item button{
+    background-color: #f99640;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+}
+.bai1__main-content-connect-last{
+    width: 30%;
+
+}
+.bai1__main-content-connect-last h5{
+    margin: 0;
+}
+.bai1__main-content-connect-about{
+    width: 40%;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.bai1__main-content-connect-stay-connected{
+    width: 30%;
+}
+.bai1__main-content-connect{
+    background-color: #2F2F2F;
+    color: white;
+}
+.bai1__main-content-connect-last-date img{
+    width: 45px;
+}
+.bai1__main-content-connect p{
+font-size: 12px;
+color: #ececec;
+}
+.bai1__footer{
+    background-color: white;
+    text-align: center;
+}
+.bai1__main-content-connect-stay-connected ul li a{
+    text-decoration: none;
+color: white;
+margin-top: 5px;
+}
+.bai1__main-content-connect-stay-connected ul li{
+    list-style: none;
+    display: flex;
+}
+.bai1__main-content-connect-stay-connected ul{
+    padding: 0;
+    
+}
+.bai1__main-content-connect-stay-connected ul li:nth-child(1){
+    background-image: url(/Buoi5/baitapvenha/images/facebook.jpg);
+    width: 28px;
+    height: 28px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+.bai1__main-content-connect-stay-connected ul li:nth-child(2){
+    background-image: url(/Buoi5/baitapvenha/images/twitter.jpg);
+    width: 28px;
+    height: 28px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+.bai1__main-content-connect-stay-connected ul li:nth-child(3){
+    background-image: url(/Buoi5/baitapvenha/images/rss.jpg);
+    width: 28px;
+    height: 28px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+.bai1__main-content-connect-stay-connected ul li:nth-child(4){
+    background-image: url(/Buoi5/baitapvenha/images/google.jpg);
+    width: 28px;
+    height: 28px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+.bai1__footer{
+    font-size: 15PX;
+}

@@ -1,0 +1,200 @@
+@media screen and (max-width:767px){
+    .container{
+        border: 1px solid #CDD1D5;
+    }
+    .row{
+        display: flex;
+    }
+    .nav__col-4{
+        width: calc(100% / 3);
+        padding:0 10px;
+    }
+    p{
+        margin: 0px;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .nav__col-4 p span{
+        padding: 0 1px;
+    }
+    .nav{
+        background-color: #00796B;
+        color: white;
+    }
+    .text__center{
+        text-align: center;
+    }
+    .title ul li{
+        display: inline-block;
+        padding: 25px 0 8px 0;
+        font-size: 25px;
+        color: white;
+    }
+    .title ul li a{
+        color: white;
+        padding: 3px;
+    }
+    .title ul{
+    margin: 0;
+    }
+    .title{
+    background-color: #009687;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .menu i{
+        background-color: #001E3C;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .main__content-title{
+    
+        background-color:#009687 ;
+        color: white;
+    
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main__content-title-position{
+        position: absolute;
+    }
+    .main__content{
+    
+        background-color: #EEEEEE;
+        position: relative;
+    }
+    
+    .main__content-ct p{
+        padding: 60px 10px 20px 10px;
+    }
+    .main__content-banner img{
+        width: 100%;
+    }
+    .main__content-hand-color{
+        background-color: #000000;
+        color: white;
+        padding:5px;
+    }
+    .main__content-footer{
+    
+        background-color: #EEEEEE;
+        position: relative;
+        padding-top: 100px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        background-color: #333333;
+        color: white;
+        width: 100%;
+    
+    }
+    .footer p {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        border: 1px solid #CDD1D5;
+    }
+    .row{
+        display: flex;
+    }
+    .nav__col-4{
+        width: calc(100% / 3);
+        padding:0 10px;
+    }
+    p{
+        margin: 0px;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .nav__col-4 p span{
+        padding: 0 1px;
+    }
+    .nav{
+        background-color: #00796B;
+        color: white;
+    }
+    .text__center{
+        text-align: center;
+    }
+    .title ul li{
+        display: inline-block;
+        padding: 25px 0 8px 0;
+        font-size: 25px;
+        color: white;
+    }
+    .title ul li a{
+        color: white;
+        padding: 3px;
+    }
+    .title ul{
+    margin: 0;
+    }
+    .title{
+    background-color: #009687;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .menu i{
+        background-color: #001E3C;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .main__content-title{
+    
+        background-color:#009687 ;
+        color: white;
+    
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main__content-title-position{
+        position: absolute;
+    }
+    .main__content{
+    
+        background-color: #EEEEEE;
+        position: relative;
+    }
+    
+    .main__content-ct p{
+        padding: 60px 10px 20px 10px;
+    }
+    .main__content-banner img{
+        width: 100%;
+    }
+    .main__content-hand-color{
+        background-color: #000000;
+        color: white;
+        padding:5px;
+    }
+    .main__content-footer{
+    
+        background-color: #EEEEEE;
+        position: relative;
+        padding-top: 100px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        background-color: #333333;
+        color: white;
+        width: 100%;
+    
+    }
+    .footer p {
+        font-size: 25px;
+    }
+}

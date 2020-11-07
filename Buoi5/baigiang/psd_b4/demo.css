@@ -1,0 +1,39 @@
+/* css trực tiếp trên Inspect HTML của trình duyệt */
+/* Nhúng font */
+@font-face{
+    font-family: 'MYRIADPRO-LIGHT';
+    src: url(/Buoi5/baitapvenha/font/MYRIADPRO-LIGHT_0.OTF);
+}
+.header{
+    padding: 15px 0;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.logo, .search{
+    width: 50%;
+}
+.logo{
+    font-size: 30px;
+}
+.offers{
+    color: #258ACB;
+    font-weight: bold;
+}
+.pretium{
+    font-family: 'MYRIADPRO-LIGHT';
+    font-size: 10px;
+    margin-left: 55px;
+    display: block;
+}
+form{
+    position: relative;
+    display: inline-block;
+}
+button{
+    border: none;
+}

@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Inconsolata Regular';
+    src: url(/Buoi5/baitapvenha/font/Inconsolata-Regular.ttf);
+}
+.title__logo h1{
+    font-family: 'Inconsolata Regular';
+    font-weight: 300;
+margin-top: 10px;
+}
+@font-face{
+    font-family: 'PlayfairDisplay Regular';
+    src: url(/Buoi5/baitapvenha/font/PlayfairDisplay-Regular.ttf);
+}
+body{
+    font-family: 'PlayfairDisplay Regular'; 
+}
+
+.title__menu ul li a{
+    font-family: 'PlayfairDisplay Regular'; 
+    text-decoration: none;
+    color: #777777;
+}
+.container{
+    padding: 40px;
+}
+.title{
+    display: flex;
+    justify-content:space-between;
+
+}
+.title__menu ul li{
+list-style: none;
+padding-left: 70px;
+}
+.title__menu ul{
+    display: flex;
+}
+.banner img{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.main-content-item-all{
+    width: 50%;
+    padding: 30px;
+}
+.main-content-item-lifestyle{
+    padding-top: 100px;
+}
+.main-content-item-lifestyle img{
+    width: 100%;
+}
+.main-content-item-email-border{
+    border: none;
+border-bottom: 1px solid black;
+}
+.main-content-item-email-btn{
+    display: flex;
+}
+.main-content-item-email{
+    background-color: #F0F0F0;
+
+}
+.main-content-item-email button{
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid black;
+
+}
+.main-content-item-email-border{
+    background-color: #F0F0F0;
+    width: 280px;
+}
+.main-content-item-email-all{
+    margin-left: 380px;
+    padding: 50px;
+}
+.main-content-item-email-all h2{
+font-weight: 500;
+}
+.main-content-item-email-btn{
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.main-content-item-email-btn button{
+    cursor: pointer;
+
+}
+.main-content-title h1{
+    font-weight: 500;
+}
+.main-content-item-lifestyle h2{
+
+    font-weight: 500;
+}
+.lifestyle{
+    color: #C7C1B6;
+}
+.load_more{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.load_more button{
+    padding: 15px 25px;
+    background-color: white;
+    border: 1px solid;
+    font-family: 'PlayfairDisplay Regular'; 
+}
+.footer_select ul li a{
+    font-family: 'PlayfairDisplay Regular'; 
+    text-decoration: none;
+    color: #101010;
+}
+.footer_select ul li{
+    list-style: none;
+    padding: 10px;
+}
+.footer_select ul{
+display: flex;
+padding:0 100px;
+}
+.footer_contact ul li a{
+    font-family: 'PlayfairDisplay Regular'; 
+    text-decoration: none;
+    color: #101010;
+}
+.footer_contact ul li{
+    list-style: none;
+    padding: 10px;
+}
+.footer_contact ul{
+    display: flex;
+    padding:0 100px;
+
+    
+}
+.footer{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+}
