@@ -14,18 +14,16 @@
 // var firstName = 'Đức';
 // var lastName = 'Trương';
 // console.log(`Tôi là: ${firstName} ${lastName}`);
-const commentText = '"Học chưa hiểu là học chưa đủ!"';
-const authorName = 'Sơn Đặng:';
-const fullCommentText = `${authorName} ${commentText}`
-
+// const commentText = '"Học chưa hiểu là học chưa đủ!"';
+// const authorName = 'Sơn Đặng:';
+// const fullCommentText = `${authorName} ${commentText}`
 
 //Làm việc với chuỗi
 
-var myString = 'Học JS tại SBGroup'
+// var myString = 'Học JS tại SBGroup'
 //   Keyword: Javascript string methods
 //   1. length
 // console.log(myString.length)
-
 
 //   2. find index
 // console.log(myString.search('JS')) // phương thức search  hỗ trợ tìm kiếm theo biểu thức chính quy
@@ -37,7 +35,6 @@ var myString = 'Học JS tại SBGroup'
 //   3. cut string cắt chuỗi theo vị trí muốn cắ từ 0 1 2 3 4 5
 // console.log(mySring.slice(4, 6))
 
-
 //   4. replace
 // console.log(myString.replace(/JS/g , 'Javascript'))
 // thay đổi vị trí muốn thành chữ mà mình muốn
@@ -48,10 +45,8 @@ var myString = 'Học JS tại SBGroup'
 //   6. convert to lower case chuyển đổi chuỗi thành chữ thường
 // console.log(myString.toLowerCase())
 
-
-//   7. trim cắt loại bỏ kí tự khaongr trắng ở hai đầu
+//   7. trim cắt loại bỏ kí tự khoảng trắng ở hai đầu
 // console.log(mySring.trim().length)
-
 
 // //   8. split cắt chuỗi thành aray , tìm điểm chung để cắt
 // var languages = 'Javascript, PHP, Ruby'

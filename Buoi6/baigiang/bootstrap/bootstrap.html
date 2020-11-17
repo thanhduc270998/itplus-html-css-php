@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <style type="text/css">
+    .col1{
+        background-color: red;
+    }
+    .col2{
+        background-color: green;
+    }
+    .col3{
+        background-color: blue;
+    }
+    .col4{
+        background-color: yellow;
+    }
+    .container{
+        background-color: #ccc;
+    }
+    </style>
+    <!-- Thư viện bootstrap
+    - là 1 thư viện được viết từ css, tích hợp thêm cả HTML và JavaScript
+    - Cung cấp cơ chế layout và các component rất tiện dụng, có thể tạo ra cấu trúc layout và các component như form ,
+    alert , slideshow mà không cần phải code 1 dòng html css nào
+    - Với PHP, hầu như đều tích hợp Bootstrap
+    -Bootstrap v4 dùng flex dựng layout , Bootstrap v3 vẫn dùng float
+    -Hỗ trợ responsive theo hướng Mobile-first, thiết kế web từ mobile -> các thiết bị Ipad, PC
+    -> Đi ngược lại hướng thiết kế trong khóa học
+    + Cài đặt :
+    - Tải trực tiếp : Lên trang chủ bootstrap tải về, copy file: dist/css/bootstrap.min.css đặt vào cấu trúc thư mục của bạn,
+    các file có .min - minimize: nén dung lượng nhỏ nhất có thể , k muốn edit file này
+    - Dùng link online - CDN: Bootstrap4
+    -->
+    <h1>Thẻ h1 khi chưa có Bootstrap</h1>
+    <!-- Layout với Bootstrap:
+    + chia làm 5 phạm vi kích thước màn hình thay vì 3 phạm vi như đã học
+    + Bootstrap mặc định coi Ipad/PC hiển thị giống hệt nhau
+    + Chia 1 hàng làm 12 cột có width = nhau
+    +Mobile-first
+    + chỉ cần sd các class prefix = col- , col-sm-,col-md-
+    + với bootstrap 3 thì col- thay bằng col-xs-
+    -->
+    <div class="container">
+        <h1>Trên IPAD/PC: 1 hang f4 cột bằng  nhau, Trên moblie : 1 hàng 2 cột bằng nhau</h1>
+        <!-- 1 hàng bootstrap = 12 cột bằng nhau: vẫn giữ nguyên cấu trúc hàng /cột từ Ipad/PC , thêm class prefix cho mobile -->
+        <div class="row">
+            <div class="col1 col-md-3 col-6">Cột 1</div>
+            <div class="col2 col-md-3 col-6">Cột 2</div>
+            <div class="col3 col-md-3 col-6">Cột 3</div>
+            <div class="col4 col-md-3 col-6">Cột 4</div>
+        </div>
+        <!--  VD2 : trên Ipad/PC/Mobile 1 hàng 2 cột: cột thứ 2 gấp 2 lần cột 1-->
+        <div class="row">
+            <div class="col1 col-md-4 col-4">Cột 1</div>
+            <div class="col2 col-md-8 col-8">Cột 2</div>
+        </div>
+    </div>
+    <!-- Demo các Component có sẵn của Bootstrap 
+    Menu Component
+    -->
+    <div class="alert alert-success">
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> Indicates an important action.
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> Indicates a slightly less important action.
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> Dark grey alert.
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> Light grey alert.
+  </div>
+  <div class="alert alert-success">
+    <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+</body>
+
+
+</html>

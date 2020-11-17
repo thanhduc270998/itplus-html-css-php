@@ -1,0 +1,39 @@
+.col1 {
+    background-color: red;
+}
+.col2 {
+    background-color: yellow;
+}
+.col3 {
+    background-color: blue;
+}
+.col4 {
+    background-color: green;
+}
+.row {
+    display: flex;
+}
+.col{
+    width: 25%;
+}
+/* do cơ chế flex mặc định giữ các cột luôn trên 1 hàng kể cả tổng width của các
+cột hàng , kể cả tổng width của các cột > 100% , nên cần thay đổi lại cơ chế
+này nếu muốn cột bị thừa bị xuống dòng*/
+/* CSS cho IPAD */
+@media (min-width: 768px) and (max-width: 1023px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 50%;
+    }
+}
+/* Mobile */
+@media (max-width: 767px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 100%;
+    }
+}

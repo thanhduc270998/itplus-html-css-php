@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xử lý sự kiện trong Javascript</title>
+</head>
+<body>
+    <a href="#" id="a-test2"> click thẻ a để show alert </a>
+    <a href="#" onclick="alert('Alert!')">
+    Click thẻ a để show alert</a>
+    <p id="p-click">Click vào thẻ p để show alert</p>
+    
+    <h1 id="h1-click">Click h1 show alert</h1>
+    <select id="country">
+        <option value="1">VN</option>
+        <option value="2">Japan</option>
+        <option value="3">USA</option>
+    </select>
+    <br>
+    <input type="radio" name="gender" id="male" value="male"> Nam
+    <br>
+    <input type="radio" name="gender" id="female" value="female"> Nữ
+    <h1 id="hover-unhover">Rê chuôt qua để đổi màu text,
+        ra khỏi thẻ để về màu ban đầu
+    </h1>
+    <input type="text" id="name">
+    <br>
+    <input type="text" id="age">
+    <br>
+    <input type="text" id="username">
+    <br>
+    <br>
+    <form action="" method="POST" id="form">
+        Nhập số bất kì
+        <input type="text" id="number">
+        <br>
+        <!-- có thể sử dụng skien click trên input submit cũng được , nhưng bị thiếu mất case
+        submit bằng cách đứng trong input rồi enter-->
+        <input type="submit" value="Hiển thị số">
+    </form>
+    <!-- khai báo nơi chứa kết quả hiển thị sau khi submit form -->
+    <h3 style="color: green;" id="result"></h3>
+    <script src="main.js"></script>
+</body>
+</html>
