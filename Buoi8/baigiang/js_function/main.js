@@ -38,8 +38,8 @@ obj_select.addEventListener('change', function(){
     // có thể set value của option trùng với text của option đó để xử lí đơn giản
     console.log('Value = ' +this.value);
     // lấy text hiển thị của option
-    var text = this.options[this.selectedIndex].text;
-    console.log('Text =' +text);
+    var text1 = this.options[this.selectedIndex].text;
+    console.log('Text =' +text1);
 });
 
 //- demo các sự kiện cơ bản trong js

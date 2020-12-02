@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tích hợp thư viện jQuery Validate theo thứ tự sau:
+    -   jquery-.min.js
+    -   jquery.validate.min.js
+ -->
+ <script src="/Buoi9-j-query/baigiang/js/jquery-3.4.1.min.js"></script>
+ <script src="/Buoi9-j-query/baigiang/js/jquery.validate.min.js"></script>
+</head>
+<body>
+    <!-- Bắt buộc phải khai báo name cho input vì thư viện này validate dựa theo thuộc tính name -->
+    <form action="" id="form" method="post">
+        Nhập tên:
+        <input type="text" name="username">
+        <br>
+        Nhập tuổi:
+        <input type="text" name="age">
+        <br>
+        Nhập email:
+        <input type="text" name="email">
+        <br>
+        <input type="submit" value="Validate">
+    </form>
+    <script src="main.js">
+       
+    </script>
+</body>
+</html>

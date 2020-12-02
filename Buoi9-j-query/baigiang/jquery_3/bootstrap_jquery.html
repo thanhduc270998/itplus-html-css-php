@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo thư viện bootstrap với jQuery</title>
+    <!-- Tích hượp thư viện bootstrap -->
+    <link rel="stylesheet" href="/Buoi9-j-query/baigiang/css/bootstrap.min.css">
+    <!-- bootstrap cần thư viện jquery để hoạt động đc đầy đủ csac chức năng , cần tích hợp các file theo đúng thứ sau:
+    - jquery-.min.js
+    - bootstrap.bundle.min.js
+    - bootstrap.min.css
+-->
+<script src="/Buoi9-j-query/baigiang/js/jquery-3.4.1.min.js"></script>
+<script src="/Buoi9-j-query/baigiang/js/bootstrap.bundle.min.js"></script>
+<script src="/Buoi9-j-query/baigiang/js/bootstrap.min.css"></script>
+</head>
+<body>
+    <h1>Component Modal Popup</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <h1>Component Carousel</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/90249277_1296702993860041_4435826808671174656_o.jpg?_nc_cat=104&ccb=2&_nc_sid=e3f864&_nc_ohc=RcfRxWDCsrIAX9FmM7z&_nc_ht=scontent-cdg2-1.xx&oh=d2bd1d4c3a5fe7d72e085704594e8ea0&oe=5FE20DAD" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/59403855_1015508281979515_3939600795690860544_o.jpg?_nc_cat=104&ccb=2&_nc_sid=19026a&_nc_ohc=DVIPkM-ScGIAX_tv6ah&_nc_ht=scontent-cdg2-1.xx&oh=e4ec2ebd7b0b5d6d9ad0cc48e05d1aa4&oe=5FE47349" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/29060184_763926477137698_7227039995055226727_o.jpg?_nc_cat=111&ccb=2&_nc_sid=19026a&_nc_ohc=edRsnhjNhN8AX-ng7sy&_nc_ht=scontent-cdg2-1.xx&oh=b2245966d407f999ec7d2053dcf30110&oe=5FE2E81F" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+
+
+    <h1>Demo Component Dropdown của bootstrap</h1>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+</body>
+</html>

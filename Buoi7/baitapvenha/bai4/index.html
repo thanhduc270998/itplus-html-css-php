@@ -9,31 +9,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<style>
+    .bai4{
+        background-color: #EEEEEE;
+    }
+</style>
+<body class="container">
+   <form action="" method="POST" id="form" class="container bai4">
     <table>
         <tr class="m-10">
             <td  class="d-flex flex-row-reverse">CoverImage:</td>
-            <td><input type="file"></td>
+            <td><input type="file" id="file"></td>
         </tr>
         <tr>
             <td class="d-flex flex-row-reverse">Title:</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="title"></td>
             <td class="d-flex flex-row-reverse">Author:</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="author"></td>
         </tr>
         <tr>
             <td>Release date:</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="release_date"></td>
             <td>Keyworks:</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="keyworks"></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td></td>
-            <td  class="d-flex flex-row-reverse"><button type="submit" class="btn btn-primary">Submit</button></td>
+            <td  class="d-flex flex-row-reverse"><button type="submit" class="btn btn-primary" id="submit">Submit</button></td>
         </tr>
     </table>
+   </form>
+    <p style="color: #00B050; font-size: 20px;" id="result" ></p>
     <script src="main.js"></script>
 </body>
 </html>
