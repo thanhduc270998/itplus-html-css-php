@@ -25,4 +25,9 @@
  * C/ Khóa chính của bảng: là trường phân biệt các bản ghi với nhua , cơ chế sinh khóa chính thường sẽ để giá trị của khóa chính là số, tự động tăng lên 1 mỗi
  * khi có bản ghi mới sinh ra -> AUTO INCREMENT
  * d/ Khóa ngoại của bảng: FOREIGN KEY, là khóa chính của 1 bảng khác -> các bảng có mối quan hệ -> khóa ngoại liên kết các bảng với nhau
+ * Export csdl ra 1 file .sql -> dùng phpmyadmin -> chọn CSDL -> export php1020e_test
+ * Import CSDL thủ công : php1020e_test
+ * (utf8-general_ci) ->import -> chọn file .sql
+ * Sửa / xóa CSDL , SỬA/XÓA BẢNG -> OPERATION
+ * tab Designer , đứng tại csdl -> tạo ra .... qhe giữa các bảng
  **/
