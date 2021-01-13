@@ -17,13 +17,19 @@ require_once 'database.php';
  */
 ?>
 <?php
+//session djang flash
 if (isset($_SESSION['success'])) {
     echo $_SESSION['success'];
     unset($_SESSION['success']);
 }
+//session djang flash, chứa lỗi nếi
+if (isset($_SESSION['error'])) {
+    echo $_SESSION['error'];
+    unset($_SESSION['error']);
+}
 // Xử lí lấy dữ liệu từ bảng products
 // viết truy vấn : thoe thứ tự giảm dần của ngày tạo
-$sql_select_all = "SELECT * FROM products ORDER BY create_at DESC ";
+$sql_select_all = "SELECT * FROM products ORDER BY created_at DESC ";
 // Thực thi truy vấn
 $obj_result_all = mysqli_query($connection, $sql_select_all);
 // lấy dữ liệu trả về dưới dạng mảng kết hợp
